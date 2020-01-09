@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="lbl_directory">14dp</dimen>
+    <dimen name="lbl_movie_name">28dp</dimen>
+    <dimen name="img_poster_height">220dp</dimen>
+    <dimen name="dimen_40">40dp</dimen>
+
+    <dimen name="taille_texte_formulaire">13sp</dimen>
+    <dimen name="taille_petit_marge_formulaire">10dp</dimen>
+    <dimen name="taille_icon_formulaire">20dp</dimen>
+
+
+
+
+    <dimen name="profile_width">75dp</dimen>
+    <dimen name="profile_height">75dp</dimen>
+
+
+    <!--Dimension utliser pour l'affichage de la fil d'attente d'une caisse-->
+    <dimen name="activity_padding_horizontal">16dp</dimen>
+    <dimen name="padd_10">10dp</dimen>
+    <dimen name="ic_delete">30dp</dimen>
+    <dimen name="thumbnail">90dp</dimen>
+
+</resources>

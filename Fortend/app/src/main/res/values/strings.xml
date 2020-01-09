@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">AppNavigationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!--phrase utilisé dans la boites de dialogue pour choisir les villes-->
+    <string name="titre_boite_dialogue">Quelle ville habitez-vous ?</string>
+    <string name="valider">Valider</string>
+    <string name="Annuler">Annuller</string>
+
+
+    <!---Tableau contenant les different ville ou notre application sera utilisable-->
+
+    <string-array name="ville_maroc">
+        <item>Rabat</item>
+        <item>Casablanca</item>
+        <item>Fès</item>
+        <item>Tanger</item>
+        <item>Oujda</item>
+        <item>Marrackech</item>
+        <item>Meknes</item>
+        <item>Agadir</item>
+    </string-array>
+
+
+    <!--phrase utilisé dans activity_fil_attente-->
+
+    <string name="personnes_en_attente">Personne en attente</string>
+    <string name="fil_d_attente">Fil d\'attente</string>
+    <string name="personne_qui_attendent">Personnes qui se trouvent dans la fil d\'attente</string>
+
+    <string name="je_rejoinds_la_fil">Je rejoins la fil</string>
+    <string name="je_passe_en_priorite">Je passe en priorité</string>
+
+    <string name="combien_de_minutes">Combien de minutes voulez-vous prolonger ?</string>
+
+
+    <!---Tableau contenant les different minutes proposer par le client lorqu'il veut prolonger son chronometre-->
+
+    <string-array name="minutes">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+
+
+    <!--phrase utilisé lors de l'inscription dclientteur-->
+
+    <string name="possede_un_compte">Ne Possede pas un compte ? Crée un nouveau</string>
+
+
+    <!--phrase utilisé dans activity_ticket-->
+    <string name="titre_ticket">Veuillez patienté jusqu\'a votre tours...!!</string>
+    <string name="numero_ticket">Ticket N°</string>
+    <string name="prolonger">Prolonger</string>
+    <string name="annuler">Annuler</string>
+    <string name="caisse">Caisse</string>
+    <string name="temps_d_attente">Temps d\'attente</string>
+    <string name="connexion">Connexion</string>
+
+
+    <!---Text utilise par la bare de recherche -->
+    <string name="action_search">Search</string>
+    <string name="search_hint">Recherche...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

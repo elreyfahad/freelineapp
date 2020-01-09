@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:descendantFocusability="beforeDescendants"
+    tools:context="com.fahad.appnavigationdrawer.Caissier_UI.Client_Ticket_Activity">
+
+    <android.support.design.widget.AppBarLayout
+        foreground="?android:windowContentOverlay"
+        android:layout_width="match_parent"
+        android:id="@+id/App_layout"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_ticket"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ticket Numero"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+        <TextView
+            android:id="@+id/numero_ticket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:text="10"
+            android:textSize="100sp"
+
+            />
+
+        <Button
+            android:id="@+id/btnEnleveClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUPPRESSION TICKET"
+
+            />
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

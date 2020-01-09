@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fahad.appnavigationdrawer.Controlleurs.activites.ProfilActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:layout_height="300dp">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+            <ImageView
+                android:id="@+id/photo_de_profil"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax"
+
+                android:layout_gravity="center"
+                />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                android:theme="@style/ThemeOverlay.AppCompat"
+
+                />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:layout_margin="5dp"
+                android:padding="20dp">
+                <ImageView
+                    android:layout_width="@dimen/taille_icon_formulaire"
+                    android:layout_height="@dimen/taille_icon_formulaire"
+                    app:srcCompat="@drawable/ic_email_black_24dp"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/taille_texte_formulaire"
+                    android:background="#fff"
+                    android:layout_marginLeft="@dimen/taille_petit_marge_formulaire"
+                    android:id="@+id/email_utilisateur" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:layout_margin="5dp"
+                android:padding="20dp">
+                <ImageView
+                    android:layout_width="@dimen/taille_icon_formulaire"
+                    android:layout_height="@dimen/taille_icon_formulaire"
+                    app:srcCompat="@drawable/ic_phone_iphone_black_24dp"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/taille_texte_formulaire"
+                    android:background="#fff"
+                    android:layout_marginLeft="@dimen/taille_petit_marge_formulaire"
+                    android:id="@+id/telephone_utilisateur"
+                     />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:layout_margin="5dp"
+                android:padding="20dp"
+                >
+                <ImageView
+                    android:layout_width="@dimen/taille_icon_formulaire"
+                    android:layout_height="@dimen/taille_icon_formulaire"
+                    app:srcCompat="@drawable/ic_add_location_black_24dp"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/taille_texte_formulaire"
+                    android:background="#fff"
+                    android:layout_marginLeft="@dimen/taille_petit_marge_formulaire"
+                    android:id="@+id/adresse_utilisateur"
+                     />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:layout_margin="5dp"
+                android:padding="20dp"
+                >
+                <ImageView
+                    android:layout_width="@dimen/taille_icon_formulaire"
+                    android:layout_height="@dimen/taille_icon_formulaire"
+                    app:srcCompat="@drawable/ic_medal"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/taille_texte_formulaire"
+                    android:background="#fff"
+                    android:layout_marginLeft="@dimen/taille_petit_marge_formulaire"
+                    android:id="@+id/utilisateur_rang"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:layout_margin="5dp"
+                android:padding="20dp">
+                <ImageView
+                    android:layout_width="@dimen/taille_icon_formulaire"
+                    android:layout_height="@dimen/taille_icon_formulaire"
+                    app:srcCompat="@drawable/ic_credit_card_black_24dp"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/taille_texte_formulaire"
+                    android:background="#fff"
+                    android:layout_marginLeft="@dimen/taille_petit_marge_formulaire"
+                    android:id="@+id/num_carte_bancaire_utilisateur"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/modifier_utilisateur"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_edit_black_24dp"
+        app:layout_anchor="@id/appBarLayout"
+        app:layout_anchorGravity="bottom|right|end" />
+
+</android.support.design.widget.CoordinatorLayout>

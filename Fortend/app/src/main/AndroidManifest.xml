@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fahad.appnavigationdrawer">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Controlleurs.activites.MainActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".Controlleurs.activites.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Controlleurs.activites.ProfilActivity"
+            android:parentActivityName=".Controlleurs.activites.MainActivity" />
+        <activity
+            android:name=".Controlleurs.activites.ParametresActivity"
+            android:parentActivityName=".Controlleurs.activites.MainActivity" />
+        <activity
+            android:name=".Controlleurs.activites.Modifcation_profil"
+            android:parentActivityName=".Controlleurs.activites.ProfilActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Controlleurs.activites.TicketActivity"
+            android:parentActivityName=".Controlleurs.activites.Fil_AttenteActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Controlleurs.activites.Fil_AttenteActivity"
+            android:parentActivityName=".Controlleurs.activites.ListeSupermarche_Activity" />
+        <activity android:name=".Controlleurs.activites.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".Controlleurs.activites.SignupActivity"
+            android:parentActivityName=".Controlleurs.activites.LoginActivity" />
+        <activity
+            android:name=".Controlleurs.activites.ListeSupermarche_Activity"
+            android:parentActivityName=".Controlleurs.activites.MainActivity">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Caissier_UI.Scan_Activity" />
+        <activity
+            android:name=".Caissier_UI.Client_Ticket_Activity"
+            android:parentActivityName=".Caissier_UI.MainActivity_Caissier"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".Caissier_UI.MainActivity_Caissier"
+            android:screenOrientation="locked" />
+        <activity android:name=".Caissier_UI.Liste_Fil_Activity" android:parentActivityName=".Caissier_UI.MainActivity_Caissier">
+
+        </activity>
+    </application>
+
+</manifest>

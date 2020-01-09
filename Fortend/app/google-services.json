@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "145205711054",
+    "firebase_url": "https://appnavigationdrawer-v5.firebaseio.com",
+    "project_id": "appnavigationdrawer-v5",
+    "storage_bucket": "appnavigationdrawer-v5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145205711054:android:a8dbe6c80bbb79f2",
+        "android_client_info": {
+          "package_name": "com.fahad.appnavigationdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145205711054-q9igdtgptpquvbak07ccgdrpd7fs3ud7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fahad",
+            "certificate_hash": "b17da988219cb3456f7a84cc69efd6b13b7ee392"
+          }
+        },
+        {
+          "client_id": "145205711054-1j6fso9l9l0181lauj9ulg6h5s9fvfm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXjqbeF0NwTNEQ2dnJz65qoamV5tmvJZ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145205711054-1j6fso9l9l0181lauj9ulg6h5s9fvfm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

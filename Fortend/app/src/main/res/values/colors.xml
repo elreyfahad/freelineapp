@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!--Couleur qui vont nous servir la construiction de l'arrie plan du la page du profil dclientteur-->
+    <color name="grayligth">#fafafa</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+
+
+    <color name="colorAccentSecondary">#ad1a7f</color>
+    <color name="colorPrimary2">#6d0094</color>
+    <color name="colorPrimaryDark2">#6d0094</color>
+    <color name="colorAccent2">#ff2068</color>
+
+
+
+    <color name="viewBg">#f8f8f8</color>
+    <color name="btn_disabled">#999</color>
+    <color name="lbl_value">#222222</color>
+
+
+
+    <!--couleur utilise par l'ecran de connexion-->
+
+    <color name="primary">#01315a</color>
+    <color name="primary_dark">#001f39</color>
+    <color name="primary_darker">#001323</color>
+    <color name="accent">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+
+
+
+
+    <!--couleur utiliser pour le cardview-->
+
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+
+    <!--couleur du materail viewpager-->
+
+    <color name="blue">#303F9F</color>
+    <color name="purple">#673AB7</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="orange">#e95609</color>
+
+    <color name="accent_color">@color/blue</color>
+
+    <color name="statusBarColor">@color/blue</color>
+    <color name="navigationBarColor">@android:color/black</color>
+    <color name="drawerArrowColor">@android:color/white</color>
+
+
+    <!--Couleur pour les items qui afficherons les produit-->
+    <color name="btn_bg_checkout">#428bca</color>
+    <color name="list_divider">#dedede</color>
+    <color name="lbl_product_name">#333333</color>
+    <color name="lbl_product_description">#444444</color>
+    <color name="bg_msg_you">#5eb964</color>
+    <color name="bg_msg_from">#e5e7eb</color>
+    <color name="msg_border_color">#a1a1a1</color>
+    <color name="bg_btn_join">#1e6258</color>
+    <color name="bg_msg_input">#e8e8e8</color>
+    <color name="text_msg_input">#626262</color>
+    <color name="lblFromName">#777777</color>
+
+
+
+    <!--Couleur utliser pour l'affichage de la fil d'attente-->
+    <color name="bg_row_background">#fa315b</color>
+    <color name="item_name">#535353</color>
+    <color name="description">#a9a9a9</color>
+</resources>

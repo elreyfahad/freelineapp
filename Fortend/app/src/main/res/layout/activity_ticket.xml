@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical"
+    tools:context="com.fahad.appnavigationdrawer.Controlleurs.activites.TicketActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/layout_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_ticket_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <com.fahad.appnavigationdrawer.Vues.Ticket_Views
+        android:id="@+id/layout_ticket"
+        android:layout_below="@id/layout_app"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/taille_texte_formulaire"
+        android:layout_marginRight="@dimen/taille_texte_formulaire"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dimen_10"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageQrCode"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="40dp"
+            android:scaleType="centerCrop"
+             />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Vous passerez dans environ"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_marginBottom="20dp"
+                android:id="@+id/temps_attente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:gravity="center_horizontal"
+                android:textSize="30dp"
+                android:text="00:00"
+                />
+
+        </LinearLayout>
+
+
+
+    </com.fahad.appnavigationdrawer.Vues.Ticket_Views>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_margin"
+        android:paddingRight="@dimen/activity_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Caisse N°"
+            android:textSize="40dp" />
+        <TextView
+            android:id="@+id/numero_caisse"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:text="455"
+            android:textColor="@color/colorAccent"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

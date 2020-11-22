@@ -11,4 +11,6 @@ Pour éviter ces situations, la majorité des entreprises ont mis en place des p
 ## Encadrant :
 - **Pr. Ahmed DRISSI EL MALIANI**
 
+**Lien du rapport** : https://drive.google.com/file/d/1THJ-jh3eG56cSpk8cd4uQxRjpA4EJ2bm/view?usp=sharing
+
 
